@@ -1,6 +1,6 @@
 package com.hospital.is.model;
 
-public class PatientDTO extends Person implements Comparable<PatientDTO> {
+public class PatientDTO extends PersonDTO implements Comparable<PatientDTO> {
 
 	private MedicalFolder medicalFolder;
 

@@ -1,14 +1,11 @@
 package com.hospital.is;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import com.hospital.is.entity.Disease;
 import com.hospital.is.entity.MedicalFolder;
 import com.hospital.is.entity.Patient;
-
 
 public class StaticDatabase {
 
@@ -87,7 +84,6 @@ public class StaticDatabase {
 	 */
 	public static Map<String, Patient> getPatientList() {
 
-		List<Patient> patientList = new ArrayList<>();
 		Map<String, Patient> map = new HashMap<>();
 
 		Patient patient = new Patient();
@@ -99,9 +95,8 @@ public class StaticDatabase {
 		patient.setBirthDate("01/01/1970");
 		patient.setPhone("+212 6 66 77 88 99");
 
-		patientList.add(patient);
-
 		map.put(patient.getLastName() + patient.getFirstName(), patient);
+		map.put(patient.getLastName() + patient.getFirstName() + "_bis", patient);
 
 		return map;
 	}

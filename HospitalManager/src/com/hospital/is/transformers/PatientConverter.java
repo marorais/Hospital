@@ -3,7 +3,7 @@ package com.hospital.is.transformers;
 import com.hospital.is.entity.Patient;
 import com.hospital.is.model.PatientDTO;
 
-public class PatientConverter {
+public class PatientConverter extends AbstractConverter<Patient, PatientDTO> {
 
 	public PatientDTO toDTO(Patient patient) {
 		PatientDTO dto = new PatientDTO();

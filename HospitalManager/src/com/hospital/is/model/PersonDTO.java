@@ -1,6 +1,6 @@
 package com.hospital.is.model;
 
-public abstract class Person {
+public abstract class PersonDTO {
 
 	/**
 	 * Le prénom de la personne

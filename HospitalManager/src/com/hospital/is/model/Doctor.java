@@ -1,6 +1,6 @@
 package com.hospital.is.model;
 
-public class Doctor extends Person {
+public class Doctor extends PersonDTO {
 	
 	private Integer registrationNumber;
 	
