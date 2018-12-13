@@ -9,4 +9,8 @@ import com.hospital.is.service.MedicalFolderService;
  */
 public class MedicalFolderServiceImpl extends ServiceImpl<MedicalFolder> implements MedicalFolderService {
 
+	public MedicalFolderServiceImpl(Class<MedicalFolder> clazz) {
+		super(clazz);
+	}
+
 }

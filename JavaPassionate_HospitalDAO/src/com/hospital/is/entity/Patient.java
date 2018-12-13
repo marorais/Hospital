@@ -1,6 +1,6 @@
 package com.hospital.is.entity;
 
-public class Patient extends Person implements Comparable<Patient> {
+public class Patient extends Person {
 
 	private MedicalFolder medicalFolder;
 
@@ -25,17 +25,7 @@ public class Patient extends Person implements Comparable<Patient> {
 	 */
 	@Override
 	public String toString() {
-		return "Patient " + super.toString() + " [medicalFolder=" + medicalFolder + "]";
-	}
-
-	@Override
-	public int compareTo(Patient o) {
-//		if (this.getFirstName().subSequence(0, 1).equals(o.getFirstName().substring(0, 1))) {
-//			return 0;
-//		} else {
-//			return -1;
-//		}
-		return 0;
+		return super.toString() + "\n   [medicalFolder=" + medicalFolder + "]\n";
 	}
 
 }

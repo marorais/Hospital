@@ -12,4 +12,8 @@ import com.hospital.is.service.AppointmentService;
  */
 public class AppointmentServiceImpl extends ServiceImpl<AppointmentDTO> implements AppointmentService {
 
+	public AppointmentServiceImpl(Class<AppointmentDTO> clazz) {
+		super(clazz);
+	}
+
 }

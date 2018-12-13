@@ -10,8 +10,10 @@ import com.hospital.is.service.PrescriptionService;
  * @author user001
  *
  */
-public class PrescriptionServiceImpl extends ServiceImpl<Prescription> implements PrescriptionService{
+public class PrescriptionServiceImpl extends ServiceImpl<Prescription> implements PrescriptionService {
 
-
+	public PrescriptionServiceImpl(Class<Prescription> clazz) {
+		super(clazz);
+	}
 
 }

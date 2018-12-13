@@ -12,4 +12,8 @@ import com.hospital.is.service.DoctorService;
  */
 public class DoctorServiceImpl extends ServiceImpl<Doctor> implements DoctorService {
 
+	public DoctorServiceImpl(Class<Doctor> clazz) {
+		super(clazz);
+	}
+
 }

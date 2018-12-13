@@ -9,4 +9,8 @@ import com.hospital.is.service.DiseaseService;
  */
 public class DiseaseServiceImpl extends ServiceImpl<Disease> implements DiseaseService {
 
+	public DiseaseServiceImpl(Class<Disease> clazz) {
+		super(clazz);
+	}
+
 }

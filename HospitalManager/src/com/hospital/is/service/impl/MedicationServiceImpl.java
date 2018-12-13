@@ -12,6 +12,10 @@ import com.hospital.is.service.MedicationService;
  */
 public class MedicationServiceImpl  extends ServiceImpl<Medication> implements MedicationService {
 
+	public MedicationServiceImpl(Class<Medication> clazz) {
+		super(clazz);
+	}
+
 	
 
 }
