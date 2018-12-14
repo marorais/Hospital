@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>HospitalWeb</groupId>
+	<artifactId>com.hospital.is</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>HospitalWeb</name>
+	<description>HospitalWeb</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>HospitalManager</groupId>
+			<artifactId>com.hospital.is</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
